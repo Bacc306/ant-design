@@ -21,7 +21,7 @@ const openNotification = () => {
     message: 'Notification Title',
     description:
       'I will never close automatically. This is a purposely very very long description that has many many characters and words.',
-    duration: 0,
+    duration: 1,
   };
   notification.open(args);
 };
